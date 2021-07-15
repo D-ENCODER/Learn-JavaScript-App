@@ -1,0 +1,42 @@
+name: quiz_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http:
+  html_unescape:
+  cupertino_icons: ^0.1.2
+  url_launcher: ^6.0.3
+  animated_text_kit: ^4.1.1
+  animations: ^2.0.0
+  shared_preferences: ^2.0.5
+  code_editor: ^1.0.0
+  introduction_screen: ^1.0.7
+  quotes: ^0.0.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/first_quiz.json
+    - assets/second_quiz.json
+    - assets/
+  fonts:
+    - family: CM Sans Serif
+      fonts:
+        - asset: assets/fonts/cm_sans_serif_2012.ttf
+    - family: Sourcecode
+      fonts:
+        - asset: assets/fonts/SourceCodePro-Light.ttf
+    - family: Quotes
+      fonts:
+        - asset: assets/fonts/Spirax-Regular.ttf
